@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.header-section {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 140px 0px 140px;
+}
+
+.header__top-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+}
+.header__items {
+  display: flex;
+  padding-right: 28px;
+}
+.header__item {
+  padding-right: 20px;
+}
+.header__item:first-child {
+  color: rgba(31, 32, 65, 0.75);
+  font-weight: bold;
+}
+.header__item:nth-child(2) {
+  position: relative;
+  margin-right: 25px;
+}
+.header__item:nth-child(2):after {
+  content: "";
+  position: absolute;
+  left: 59px;
+  top: 3px;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  height: 6px;
+  width: 6px;
+  transform: rotate(45deg);
+  color: rgba(31, 32, 65, 0.5);
+}
+.header__item:nth-child(5) {
+  position: relative;
+  margin-right: 20px;
+}
+.header__item:nth-child(5):after {
+  content: "";
+  position: absolute;
+  left: 100px;
+  top: 3px;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  height: 6px;
+  width: 6px;
+  transform: rotate(45deg);
+  color: rgba(31, 32, 65, 0.5);
+}
+.header__item:last-child {
+  padding-right: 0;
+}
+.header__button {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  position: relative;
+  height: 30px;
+  border-radius: 22px;
+  background: #fff;
+  text-align: center;
+}
+.header__button::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  background: linear-gradient(0deg, #8ba4f9, #bc9cff);
+  border-radius: 24px;
+  z-index: -1;
+}
+
+.logo {
+  max-width: 105.69px;
+  max-height: 40px;
+}
+
+.nav {
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.button_button-in {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  color: #bc9cff;
+}
+.button_button-reg {
+  margin-left: 22px;
+  width: 192px;
+  color: #fff;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  padding-inline-start: 0;
+  margin-block: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+h1 {
+  color: tomato;
+}
+
+.wrapper {
+  font-family: "Montserrat", sans-serif;
+}
+
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */
