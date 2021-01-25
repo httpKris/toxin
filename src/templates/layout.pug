@@ -1,0 +1,16 @@
+include ../data/data.pug
+include ../mixins/mixins.pug
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title= siteName
+	body
+		.wrapper
+			.content
+				block header
+				include ../components/header/header
+				block footer
+				include ../components/footer/footer
+		script(src='main.js')

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import '../components/header/header.scss';
+@import '../components/header-auth/header-auth.scss';
+@import '../components/nav-bar/nav';
+@import '../components/logo/logo.scss';
+@import '../components/buttons/button-in/button-in.scss';
+@import '../components/buttons/button-reg/button-reg.scss';
+@import '../components/footer/footer.scss';
+@import 'null.scss';
+$color_h1: tomato;
+h1 {
+    color: $color_h1;
+}
+
+.wrapper {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+}

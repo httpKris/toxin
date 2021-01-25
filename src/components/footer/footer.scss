@@ -1,0 +1,119 @@
+.section-footer {
+	padding: 0px 140px 0px 137px;
+}
+.footer {
+
+		&__row {
+			display: grid;
+			grid-template-columns: 260px 1fr 200px 223px 262px;
+		}
+
+		&__block {
+		}
+
+		&__sitemap {
+			padding-left: 20px;
+			margin: 4px 0 0 20px;
+		}
+
+		&__sitemap1 {
+			padding-left: 2px;
+		}
+
+		&__sitemap2 {
+			padding-left: 3px;
+		}
+
+		&__subscribe {
+			padding-top: 4px;
+		}
+
+		&__copy-social {
+		}
+}
+//верхняя часть шапки
+.items-row {
+	height: 372px;
+	align-content: center;
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(31, 32, 65, 0.75);
+}
+.block-hotel {
+	
+		&__logo {
+			padding-bottom: 18px;
+		}
+		&__subtitle {
+		}
+}
+.sitemap {
+		&__items {
+		}
+		&__title {
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 15px;
+			text-transform: uppercase;
+			color: #1F2041;
+			padding-bottom: 18px;
+		}
+		&__item {
+			padding-bottom: 14px;
+			color: rgba(31, 32, 65, 0.5);
+		}
+}
+.subscribe {
+		&__title {
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 15px;
+			text-transform: uppercase;
+			color: #1F2041;
+		}
+		&__subtitle {
+			padding-top: 18px;
+		}
+		&__form {
+			padding-top: 23px;
+		}
+		&__input {
+			width: 243px;
+			height: 24px;
+			font-family: Montserrat;
+			font-size: 14px;
+			line-height: 24px;
+			color: rgba(31, 32, 65, 0.25);
+			padding: 9px 0px 9px 15px;
+			background: #FFFFFF;
+			border: 1px solid rgba(31, 32, 65, 0.25);
+			border-radius: 4px;
+		}
+		&__img{
+		position: relative;
+		right: -230px;
+		top: -30px;
+		}
+}
+.footer-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+}
+.copy-right {
+		font-size: 14px;
+		padding-bottom: 12px;
+		line-height: 17px;
+		color: rgba(31, 32, 65, 0.75);
+}
+.social {
+		&_item {
+			margin-left: 20px;
+			padding-bottom: 12px;
+			padding-right: 1px;
+		}
+		&__items {
+			display: flex;
+		}
+}
