@@ -1,12 +1,6 @@
 footer.section-footer.footer
-	include ./footer-items-row/footer-items-row
-	.footer__copy-social
-		.footer__row.footer-bottom
-			.copy-right Copyright © 2018 Toxin отель. Все права зачищены.
-			.social__items
-				.social_item
-					img(src="./image/twitter.png", alt="alt")
-				.social_item
-					img(src="./image/facebook.png", alt="alt")
-				.social_item
-					img(src="./image/instagram.png", alt="alt")
+	if !isfooterCreative
+		include ./footer-items-row/footer-items-row
+		include ./footer-copy-social/footer-copy-social
+	else
+		include ./footerCreative/footer_creative

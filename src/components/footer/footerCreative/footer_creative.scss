@@ -1,0 +1,34 @@
+.footer-creative {
+	width: 768px;
+	height: 367px;
+
+	margin: 0 auto;
+		&__content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 120px 140px;
+		}
+
+		&__logo {
+
+		}
+
+		&__copy-right {
+			padding-top: 20px;
+		}
+
+		&__social {
+			padding-top: 25px;
+		}
+}
+.copy-right {
+}
+.social {
+
+		&_item {
+		}
+
+		&__items {
+		}
+}
