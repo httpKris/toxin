@@ -1,5 +1,5 @@
 .section-footer {
-	padding: 0px 140px 0px 137px;
+	padding: 0px 140px 0px 138px;
 }
 .footer {
 
@@ -17,11 +17,13 @@
 		}
 
 		&__sitemap1 {
-			padding-left: 2px;
+			padding-left: 23px;
+			padding-top: 4px;
 		}
 
 		&__sitemap2 {
-			padding-left: 3px;
+			padding-left: 23px;
+			padding-top: 4px;
 		}
 
 		&__subscribe {
@@ -78,20 +80,20 @@
 			padding-top: 23px;
 		}
 		&__input {
-			width: 243px;
+			width: 245px;
 			height: 24px;
-			font-family: Montserrat;
+			font-family: inherit;
 			font-size: 14px;
 			line-height: 24px;
 			color: rgba(31, 32, 65, 0.25);
-			padding: 9px 0px 9px 15px;
+			padding: 8px 0px 9px 13px;
 			background: #FFFFFF;
 			border: 1px solid rgba(31, 32, 65, 0.25);
 			border-radius: 4px;
 		}
 		&__img{
 		position: relative;
-		right: -230px;
+		right: -228px;
 		top: -30px;
 		}
 }
@@ -103,15 +105,15 @@
 }
 .copy-right {
 		font-size: 14px;
-		padding-bottom: 12px;
+		padding-bottom: 13px;
 		line-height: 17px;
 		color: rgba(31, 32, 65, 0.75);
 }
 .social {
 		&_item {
-			margin-left: 20px;
-			padding-bottom: 12px;
-			padding-right: 1px;
+			margin-left: 19px;
+			padding-bottom: 14px;
+			padding-right: 3px;
 		}
 		&__items {
 			display: flex;
