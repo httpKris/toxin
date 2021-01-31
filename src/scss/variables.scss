@@ -1,0 +1,4 @@
+$mainLinearGradient: linear-gradient(180deg, rgba(188, 156, 255, 1), rgba(139, 164, 249, 1));
+@function fade($c, $c2, $deg) {
+	@return linear-gradient($deg, $c2, $c, rgba($c, 1) 200%);
+	};

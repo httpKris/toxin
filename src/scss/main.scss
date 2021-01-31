@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import '../components/header/header.scss';
-@import '../components/header-auth/header-auth.scss';
-@import '../components/nav-bar/nav';
-@import '../components/logo/logo.scss';
-@import '../components/buttons/button-in/button-in.scss';
-@import '../components/buttons/button-reg/button-reg.scss';
-@import '../components/footer/footer.scss';
-@import '../components/footer/footerCreative/footer_creative.scss';
+@import 'variables.scss';
+
+@import '../components/buttons/buttons.scss';
+
+
 @import 'null.scss';
 $color_h1: tomato;
-$lineGrad: linear-gradient(0deg,rgba(139, 164, 249, 1), rgba(188, 156, 255, 1));
-h1 {
-    color: $color_h1;
-}
+// $lineGrad: linear-gradient(0deg,rgba(139, 164, 249, 1), rgba(188, 156, 255, 1));
+// h1 {
+//     color: $color_h1;
+// }
 
 .wrapper {
 		font-family: 'Montserrat', sans-serif;
-		position: relative;
-		&::after{
-			content: '';
-			position: absolute;
-			border-bottom: 1px solid #E5E5E5;
-			width: 100%;
-			bottom: 76px;
-			padding: 0;
-			margin: 0;
-		}
+
+																							// Линия футера, включить на продакшене
+
+		// position: relative;
+		// &::after{
+		// 	content: '';
+		// 	position: absolute;
+		// 	border-bottom: 1px solid #E5E5E5;
+		// 	width: 100%;
+		// 	bottom: 76px;
+		// 	padding: 0;
+		// 	margin: 0;
+		// }
 }
 
 .content {
