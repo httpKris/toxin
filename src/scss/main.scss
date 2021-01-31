@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import 'variables.scss';
+@import 'null';
+@import 'variables';
+@import '../components/buttons/buttons';
+@import '../components/pagination/pagination';
 
-@import '../components/buttons/buttons.scss';
 
-
-@import 'null.scss';
-$color_h1: tomato;
-// $lineGrad: linear-gradient(0deg,rgba(139, 164, 249, 1), rgba(188, 156, 255, 1));
-// h1 {
-//     color: $color_h1;
-// }
 
 .wrapper {
 		font-family: 'Montserrat', sans-serif;
