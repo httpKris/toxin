@@ -6,6 +6,9 @@ html(lang="en")
 		meta(charset="UTF-8")
 		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		title= siteName
+		link(rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css")
+		script(src="https://code.jquery.com/jquery-1.12.4.js")
+		script(src="https://code.jquery.com/ui/1.12.1/jquery-ui.js")
 	body
 		.wrapper
 			.content
@@ -14,7 +17,9 @@ html(lang="en")
 				block buttons
 				//- include ../components/buttons/buttons
 				block pagination
-				include ../components/pagination/pagination
+				//- include ../components/pagination/pagination
+				block range-slider
+				//- include ../components/range-slider/range-slider
 				block card
 				//- include ../components/search-room-card/search-room-card
 				block footer
