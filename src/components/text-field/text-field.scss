@@ -1,0 +1,43 @@
+.text-field {
+	width: 350px;
+
+	&__header-items {
+		display: flex;
+		font-size: 12px;
+		line-height: 15px;
+		text-transform: uppercase;
+	}
+
+	&__header-text {
+		font-weight: bold;
+		color: #1F2041;
+	}
+
+	&__header-default {
+		text-transform: uppercase;
+		color: rgba(31, 32, 65, 0.5);
+		margin-left: auto;
+	}
+
+	&__input {
+		width: 320px;
+		height: 18px;
+		margin-top: 8px;
+		border-radius: 4px;
+		border: 1px solid rgba(31, 32, 65, 0.25);
+	}
+}
+input[placeholder]{
+	font-size: 20px;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(31, 32, 65, 0.25);
+	padding: 13px 15px;
+			&:focus, &:hover{
+			border: 1px solid rgba(31, 32, 65, 0.5);
+			color: rgba(31, 32, 65, 0.75);
+			background-color: #fff;
+			font-family: inherit;
+		}
+}

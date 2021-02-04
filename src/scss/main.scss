@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import 'normalize';
 @import 'null';
 @import 'variables';
+@import 'fonts';
 @import '../components/buttons/buttons';
 @import '../components/pagination/pagination';
 @import '../components/range-slider/range-slider';
+@import '../components/text-field/text-field';
 
 
 
 .wrapper {
 		font-family: 'Montserrat', sans-serif;
-
 																							// Линия футера, включить на продакшене
-
 		// position: relative;
 		// &::after{
 		// 	content: '';
