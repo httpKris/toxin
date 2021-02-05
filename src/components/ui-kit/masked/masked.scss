@@ -1,0 +1,36 @@
+.masked {
+	&__aria {
+	box-sizing: border-box;
+	height: 44px;
+	opacity: 0.75;
+	&::-webkit-inner-spin-button,
+	&::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+	}
+	input[type="date"] {
+		appearance: none;
+		-webkit-appearance: none;
+		color: rgba(31, 32, 65, 0.75);
+		font-family: inherit;
+		font-size: 14px;
+		border:1px solid rgba(31, 32, 65, 0.25);
+		background:#fff;
+		text-transform: uppercase;
+		padding:11.56px 0px 8.44px 15px;
+		display: inline-block;
+		visibility: visible;
+	}
+	input[type="date"]::-webkit-calendar-picker-indicator {
+	color: rgba(0, 0, 0, 0);
+	opacity: 1;
+	display: block;
+	background: url();
+	width: 180px;
+	height: 20px;
+	border-width: thin;
+	position: relative;
+	top: 5px;
+	}
+}	

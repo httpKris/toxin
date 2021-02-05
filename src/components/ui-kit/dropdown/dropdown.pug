@@ -1,0 +1,26 @@
+.text-field.dropdown
+	.text-field__header-items.dropdown__header
+		label(for="dropdownSelect").text-field__header-text Text fieald
+	select(id="dropdownSelect").text-field__aria.dropdown__items
+		option(value="- Выберите значение -" disabled selected hidden).dropdown__item.disabled-item Сколько гостей
+		option(value="bedrooms").dropdown__item спальни 
+			.dropdown__count
+				span.dropdown__less.round
+					a -
+				sapn.dropdown__value 1
+			span.dropdown__enlarge.round
+				a +
+		option(value="beds").dropdown__item кровати
+			.dropdown__count
+				span.dropdown__less.round
+					a -
+				sapn.dropdown__value 1
+				span.dropdown__enlarge.round
+					a +
+		option(value="bathroom").dropdown__item ванные комнаты
+			.dropdown__count
+				span.dropdown__less.round
+					a -
+				sapn.dropdown__value 1
+				span.dropdown__enlarge.round
+					a +

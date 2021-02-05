@@ -1,0 +1,15 @@
+
+.subscription-text-field {
+	position: relative;
+	&__aria {
+		
+	}
+
+	&__arrow {
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		top: 34px;
+		left: 310px;
+	}
+}

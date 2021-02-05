@@ -11,21 +11,31 @@ html(lang="ru")
 		script(src="https://code.jquery.com/ui/1.12.1/jquery-ui.js")
 	body
 		.wrapper
-			.content
+			//- .content
 				block header
-				//- include ../components/header/header
+				//- include ../components/ui-kit/header/header
 			.content
 				block buttons
-				//- include ../components/buttons/buttons
+				include ../components/ui-kit/buttons/buttons
 			.content
 				block pagination
-				//- include ../components/pagination/pagination
+				include ../components/ui-kit/pagination/pagination
 			.content
 				block range-slider
-				//- include ../components/range-slider/range-slider
+				include ../components/ui-kit/range-slider/range-slider
 			.content
-				include ../components/text-field/text-field
+				include ../components/ui-kit/text-field/text-field
 			.content
-				block footer
-				//- include ../components/footer/footer
+				include ../components/ui-kit/dropdown/dropdown
+			.content
+				include ../components/ui-kit/masked/masked
+			.content
+				include ../components/ui-kit/date-dropdown/date-dropdown
+			.content
+				include ../components/ui-kit/filter-date-dropdown/filter-date-dropdown
+			.content
+				include ../components/ui-kit/subscription-text-field/subscription-text-field
+			//- .content
+			//- 	block footer
+				//- include ../components/ui-kit/footer/footer
 		script(src='main.js')

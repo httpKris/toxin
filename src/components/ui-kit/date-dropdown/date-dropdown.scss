@@ -1,0 +1,16 @@
+.date-dropdown {
+	&__aria {
+		width: 165px;
+	}
+input[type="date"]::-webkit-calendar-picker-indicator {
+	color: rgba(0, 0, 0, 0);
+	opacity: 1;
+	display: block;
+	background: url(/image/expand_more.svg) no-repeat;
+	width: 20px;
+	height: 20px;
+	border-width: thin;
+	position: relative;
+	top: 5px;
+	}
+}
